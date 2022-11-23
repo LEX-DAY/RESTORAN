@@ -25,6 +25,10 @@ body {
 
 }
 
+.burger-menu {
+	display: none;
+}
+
 .header-line-nav {
 	display: flex;
 	align-items: center;
@@ -322,6 +326,7 @@ body {
 	background: url(img/bg2.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	height: 350px;
 
 
 
@@ -455,22 +460,9 @@ body {
 	position: relative;
 }
 
-.img-price {
-	position: absolute;
-	top: 125px;
-	left: 130px;
-}
-
-.menu-price {
-	position: absolute;
-	bottom: 184px;
-	right: 24px;
-	font-family: 'Cookie';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 30px;
-
-	color: #FFFFFF;
+.menu-img {
+	width: 300px;
+	height: 300px;
 }
 
 .menu-text {
@@ -658,8 +650,192 @@ body {
 }
 
 @media(max-width:1400px){
+	
+	.container {
+	margin: 0px 20px;
+	}
+	
 	.menu-items {
 		display: block;
+		
 	}
+	.menu-item {
+		margin: 20px auto;
+		width: 350px;
+	}
+	
+	.header-title {
+		position: static;
+		
+	}
+	.header-suptitle:before,
+	.header-suptitle:after {
+		content: none;
+	}
+	
+	.cook-content {
+		display: block;
+		
+	}
+	.cook-content img {
+		display: block;
+		margin: 30px auto;
+	}
+	
+	
+	.block-holder {
+		display: block;
+	}
+	
+	
+	
+	.left-title,
+	.left-subtitle,
+	.right-button {
+		text-align: center;
+	}
+	.right-button {
+		margin-top: -50px;
+	}
+	
+	.history-images {
+		display: none;
+	}
+	
+	.historey-title,
+	.historey-desc,
+	.historey-number {
+		width: auto;
+	}
+}
+
+
+@media(max-width:1180px) {
+	
+	.left-title{
+		padding: 30px ;
+	}
+	
+	.container {
+	margin: 0px 10px;
+	}
+	
+	.header-logo {
+		margin-left: 30px;
+	}
+	
+	.burger-menu {
+		display: block;
+		margin-right: 30px;
+	}
+	.nav,
+	.cart,
+	.phone,
+	.btn {
+		display: none;
+	}
+	
+	.header-line {
+		justify-content: space-between;
+	}
+	
+	.burgers-image {
+		display: none;
+	}
+	
+	.comment-text {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.historey-desc {
+		padding: 20px 20px;
+	}
+}
+
+@media(max-width:1000px) {
+	
+	.container {
+		margin: 0;
+	}
+	.card-holder {
+		display: block;
+	}
+	.card {
+		width: auto;
+		margin: 0px auto;
+		margin-bottom: 20px
+	}
+	
+	.comment-text {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	
+	.historey-desc {
+		padding: 20px 20px;
+	}
+}
+
+@media(max-width:780px) {
+	
+	.history-holder {
+		display: block;
+	}
+	
+	.block-holder {
+		display: block;
+	}
+	
+	.left-title {
+		font-size: 40px;
+		padding: 20px 0px;
+	}
+	.left-subtitle {
+		font-size: 20px;
+		padding-bottom: 20px;
+	}
+	
+	.left-title,
+	.left-subtitle,
+	.right-button {
+		text-align: center;
+	}
+	.right-button {
+		margin-top: -60px;
+	}
+	.menu-item {
+		width: 300px;
+		height: 400px;
+		padding: 0px 0px;
+		padding-bottom: 80px;
+	}
+	.hight {
+		display: none;
+	}
+	.comment-text {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.historey-number {
+		
+	}
+	.number-item {
+		margin: 0px;
+		padding-right: 20px;
+	}
+	.historey-desc {
+		padding: 20px 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
 
 
